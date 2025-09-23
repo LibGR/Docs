@@ -4,7 +4,7 @@
 
 Paramétrage du réseaux en IP Fixe :
 
-![](../media/documentation/Linux/DHCP/000.png)
+![](../../media/documentation/Linux/DHCP/000.png)
 
 
 Mise à jours du serveur et redémarrage :
