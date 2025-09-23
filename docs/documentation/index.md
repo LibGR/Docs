@@ -5,7 +5,10 @@ Afin de facilité mes documentations, toutes seront accès dans un contexte part
 ## Réseaux
 
 L'entreprise est organisé de cette manière :
-## DocsProduction :
+
+### DocsProduction :
+
+#### Paramétrage réseau :
 
 | Paramètre        | Adresse IP       |
 | ---------------- | ---------------- |
@@ -13,3 +16,9 @@ L'entreprise est organisé de cette manière :
 | Masque           | 255.255.255.0    |
 | Passerelle       | 192.168.2.253    |
 | Diffusion        | 192.168.2.254    |
+
+#### Adresses aloué :
+
+| Nom de la machine | Adresse IP       |
+| ----------------- | ---------------- |
+| DocsDebian12DHCP  | 192.168.2.1      |
