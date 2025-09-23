@@ -2,6 +2,9 @@
 
 Afin de facilité mes documentations, toutes seront accès dans un contexte particulié : L'entreprise **XXX** (encore à trouver).
 
+!!! info "Politique de mot de passe ?" Par défault, je mettrais LibGR comme identifiant et LibGR_007 comme mot de passe pour my retrouver. Ce qu'il ne faut surtout pas faire, c'est pour des fin de facilité.
+
+
 ## Réseaux
 
 L'entreprise est organisé de cette manière :
