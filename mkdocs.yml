@@ -14,9 +14,6 @@ theme:
 plugins:
   - search
 
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
 markdown_extensions:
   - admonition
   - tables
@@ -37,4 +34,4 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.tabbed:
       alternate_style: true
-  - mdx_math
+  - pymdownx.arithmatex
