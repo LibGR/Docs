@@ -1,11 +1,14 @@
 name: ci 
+
 on:
   push:
     branches:
       - master 
       - main
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -25,5 +28,7 @@ jobs:
           path: ~/.cache 
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material python-markdown-math
+      # Installation de MkDocs Material et extensions nécessaires
+      - run: pip install mkdocs-material pymdown-extensions
+      # Déploiement sur GitHub Pages
       - run: mkdocs gh-deploy --force
