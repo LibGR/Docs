@@ -17,6 +17,7 @@ plugins:
 extra_javascript:
   # MathJax pour le rendu LaTeX
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - js/mathjax-init.js
 
 markdown_extensions:
   - admonition
