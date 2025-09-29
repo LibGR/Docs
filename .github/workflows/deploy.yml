@@ -1,10 +1,9 @@
-name: ci 
-
+name: deploy
 on:
   push:
     branches:
-      - master 
       - main
+      - master
 
 permissions:
   contents: write
@@ -28,7 +27,5 @@ jobs:
           path: ~/.cache 
           restore-keys: |
             mkdocs-material-
-      # Installation de MkDocs Material et extensions nécessaires
-      - run: pip install mkdocs-material pymdown-extensions
-      # Déploiement sur GitHub Pages
+      - run: pip install -r requirements.txt 
       - run: mkdocs gh-deploy --force
