@@ -25,7 +25,7 @@ Remarques :
 ### I. Suite Aritmétique
 #### Définition 
 $$
-u_{n+1}=u_n+R
+u_{n+1}=u_n+r
 $$
 
 #### Formule explicite
@@ -50,7 +50,7 @@ $$
 u_n=u_p \times q^{n-p}
 $$
 
-Raison $q = \frac{u{u+1}}{u_n}$
+Raison $q = \frac{u_{u+1}}{u_n}$
 #### Somme de n terme
 $$
 S_n = u_1 \times \frac{1-q^n}{1-q}
