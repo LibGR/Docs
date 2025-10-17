@@ -154,3 +154,7 @@ line 6: error: The method gauche() is undefined for the type Main
 Chaque erreur indique que la fonction à la ligne indiquée est inconnue.
 
 Si on obtient des erreurs de ce genre, on pensera donc à vérifier que l'on a bien écrit la ligne donnant accès aux fonctions du robot. 
+
+Soumettre plusieurs fois
+
+Lorsque le site vous indique que votre programme ne marche pas comme il faudrait, prenez le temps de comprendre ce qui ne va pas, puis modifiez votre programme de sorte qu'il marche la prochaine fois. Il ne sert à rien d'essayer 15 soumissions en changeant un petit truc et en espérant qu'au bout d'un moment ça va marcher ! 
